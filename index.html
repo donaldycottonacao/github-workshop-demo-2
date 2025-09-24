@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Firstname" id="fname">
+    <input type="text" placeholder="Lastname" id="lname">
+    <input type="number" placeholder="Age" id="age">
+    <button id="submit">Submit</button>
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody id="content"></tbody>
+        </table>
+    
+</body>
+</html>
+<script>
+    let firstname = document.getElementById("fname");
+    let lastname = document.getElementById("lname");
+    let age = document.getElementById("age");
+    let submit = document.getElementById("submit");
+    let content = document.getElementById("content");
+    let studentname = JSON.parse(localStorage.getItem("names")) || [];
+
+    submit.addEventListener("click", function(){
+        studentname.push({
+            firstname : firstname.value,
+            lastname : lastname.value,
+            age : age.value
+        });
+        localStorage.setItem("names", JSON.stringify(studentname));
+        displayStudents();
+    });
+    function displayStudents(){
+        let students = JSON.parse(localStorage.getItem("names"));
+        let template = "";
+        for(let i = 0; i < students.length; i++){
+            template += `
+            <tr>
+                <td>${students[i].firstname}</td>
+                <td>${students[i].lastname}</td>
+                <td>${students[i].age}</td>
+            </tr>
+            `;
+        }
+        content.innerHTML = template;
+    }
+    displayStudents();
+</script>
