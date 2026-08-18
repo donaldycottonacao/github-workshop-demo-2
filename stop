@@ -1,0 +1,77 @@
+[33mcommit 21c064eef01df8358c215cd670020b956e73ae93[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: f11ddb5 4340567
+Author: donaldycottonacao <donaldycottonacao@gmail.com>
+Date:   Thu Sep 25 10:57:20 2025 +0800
+
+    Merge pull request #4 from BrixStone/patch-2
+    
+    Update hi.txt
+
+[33mcommit 434056753ab7380c84329bfccafd3628bab63cf5[m
+Author: KalWarden <uykaiser516@gmail.com>
+Date:   Thu Sep 25 10:52:46 2025 +0800
+
+    Update hi.txt
+
+[33mcommit f11ddb5ffe303edb1c09a3d93348d4cc5982881d[m
+Merge: 780dbf3 d99a66f
+Author: donaldycottonacao <donaldycottonacao@gmail.com>
+Date:   Thu Sep 25 10:51:12 2025 +0800
+
+    Merge pull request #3 from BrixStone/patch-1
+    
+    Update hi.txt
+
+[33mcommit d99a66f1810f62b48d6d61bea032fc94bf54e1f1[m
+Author: KalWarden <uykaiser516@gmail.com>
+Date:   Thu Sep 25 10:47:14 2025 +0800
+
+    Update hi.txt
+
+[33mcommit 780dbf3f72af4ace268d3d1418be942e3c957e31[m
+Merge: 32bfc30 e1de360
+Author: donaldycottonacao <donaldycottonacao@gmail.com>
+Date:   Wed Sep 24 15:50:54 2025 +0800
+
+    Merge pull request #2 from donaldycottonacao/develop
+    
+    message
+
+[33mcommit e1de3604fc1fa10f374f4b47459cc5267bdd9f93[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: tonacao <donaldycottonacao@gmail.com>
+Date:   Wed Sep 24 15:47:28 2025 +0800
+
+    message
+
+[33mcommit 32bfc30e0417be28a729c4ee3ef9be627e0006d6[m
+Merge: 4a3ab46 5c5746d
+Author: donaldycottonacao <donaldycottonacao@gmail.com>
+Date:   Wed Sep 24 15:44:02 2025 +0800
+
+    Merge pull request #1 from donaldycottonacao/develop
+    
+    added message
+
+[33mcommit 5c5746d9c7a583b1ea0dc376e13ca84f1d198b54[m
+Author: tonacao <donaldycottonacao@gmail.com>
+Date:   Wed Sep 24 15:42:27 2025 +0800
+
+    added message
+
+[33mcommit 4a3ab4684f4de6fdd716568ad69b1ff6b0bd6965[m
+Author: donaldycottonacao <donaldycottonacao@gmail.com>
+Date:   Tue Sep 23 15:35:35 2025 +0800
+
+    Update hello.txt
+
+[33mcommit 2e314d3b44c66f35d21267ba32b8a1cd2b4f472f[m
+Author: keyshiiiii456@gmail.com <jose@email.com>
+Date:   Tue Sep 23 14:45:49 2025 +0800
+
+    added hi
+
+[33mcommit 5d86e69bc39ebfa83f8170da6706d2a6845c7422[m
+Author: keyshiiiii456@gmail.com <jose@email.com>
+Date:   Tue Sep 23 14:35:54 2025 +0800
+
+    added hello
